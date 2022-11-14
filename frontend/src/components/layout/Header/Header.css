@@ -1,0 +1,60 @@
+.speedDial {
+    position: fixed;
+    right: 3vmax;
+    top: 3vmax;
+  }
+  
+  .speedDialIcon {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+  }
+  .user-options{
+    margin-top: -50px;
+  }
+.navbar{
+  height: 65px;
+}
+.row{
+  display: flex;
+  justify-content: right;
+  margin-right: 200px;
+  margin-top: 7px;
+}
+li{
+  margin: 10px 30px;
+  font-size: 28px;
+  list-style: none;
+}
+li> a{
+  color: black;
+  text-decoration: none;
+}
+/* .active{
+  display: block;
+} */
+/* @media screen and (max-width: 600px) {
+  .active{
+    display: none;
+  }
+  .hamburger{
+    display: flex;
+    justify-content: right;
+    height: 28px;
+    align-items: right;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-top: 10px;
+  }
+  .hamburger > div{
+    width: 25px;
+    height: 5px;
+    border-top: 4px solid;
+    margin-left: 20px;
+  }
+  li{
+    margin: 0px 0px;
+    font-size: 20px;
+    list-style: none;
+  }
+} */

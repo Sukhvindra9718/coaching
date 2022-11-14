@@ -1,0 +1,47 @@
+.form-container{
+    background-color: rgba(158, 180, 173,0.1);
+    margin:auto;
+    width: 100vw;
+    height: 100vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 80px;
+}
+label{
+    font-size: 26px;
+    margin-right: 25px;
+    margin-left: 50px;
+}
+input{
+    width: 80%;
+    font-size: 18px;
+    padding: 5px;
+}
+#btn{
+    width:150px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: pink;
+    color: grey;
+}
+#select{
+    width: 81%;
+    padding: 5px;
+    font-size: 18px;
+}
